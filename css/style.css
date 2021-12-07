@@ -1,0 +1,249 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  /*font sizing*/
+  --header-1: 2.625rem;
+  --header-2: 2.25rem;
+  --header-3: 2rem;
+  --header-4: 1.5rem;
+  --header-5: 1.125rem;
+  --header-6: 1rem;
+  --paragraph: 1.25rem;
+  --paragraph-lead: 1.5rem;
+  --label: 1rem;
+
+  /*font color*/
+  --main-font-color: #111111;
+  --secondary-font-color: #ebebeb;
+  --dark-green: #345a4f;
+  --medium-green: #b8ddd3;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif !important;
+  background-color: #fff9eb !important;
+}
+
+img {
+  max-width: 200px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--main-font-color) !important;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: var(--header-5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-bottom: 190px;
+}
+
+.section-title {
+  font-size: var(--paragraph-lead);
+  max-width: 500px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 280px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: var(--header-3);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 280px;
+  text-align: left;
+  color: #749587;
+}
+
+.project-title-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 280px; */
+  text-align: left;
+}
+
+.logo {
+  font-size: var(--header-5);
+}
+
+.project-main {
+  background-image: url("/assets/Featured.png");
+  /* bg color just to be safe in case of img not loading */
+  background-color: #7dab99;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.projects {
+  /* max-width: 80%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 280px;
+}
+
+.works {
+  width: calc(50vw - 48px);
+}
+.img-project-home {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.project-secondary-row .project-secondary-left {
+  background-image: url("/assets/smaller2.png");
+  background-color: #eb76ba;
+}
+
+.project-secondary-row .project-secondary-right {
+  background-image: url("/assets/smaller3.png");
+  background-color: #ba80fc;
+}
+.project-third-row .project-secondary-left {
+  background-image: url("/assets/smaller4.png");
+  background-color: #604c99;
+}
+
+.project-third-row .project-secondary-right {
+  background-image: url("/assets/smaller5.png");
+  background-color: #ec7c8b;
+}
+
+p.project-title {
+  top: 30px;
+  color: black;
+  position: absolute;
+  background-color: #fff9eb;
+  padding: 8px 10px 8px 30px;
+  font-size: var(--label);
+}
+
+p.hashtags {
+  /* right: 0px;
+  bottom: 30px; */
+  font-size: 0.7em !important;
+  top: 80px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  background-color: #fff9eb;
+  opacity: 0.8;
+  padding: 8px 10px 8px 30px;
+  font-size: var(--label);
+}
+
+.about-me {
+  margin-bottom: 200px;
+}
+
+.about-me-text {
+  margin: auto 0 !important;
+}
+
+.about-me-grid-img {
+  display: inline-grid;
+}
+
+.float-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 991px) {
+  .float-right {
+    float: right;
+  }
+}
+
+.about-me-photo {
+  max-height: 30%;
+}
+/*.projects {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+
+.site-footer {
+  padding: 60px;
+  background-color: white;
+}
+
+.have-a-question-container {
+  display: flex;
+  border-radius: 24px;
+  min-height: 400px;
+  margin: auto;
+  font-size: 48px;
+  background-color: #fff9eb;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  background: none;
+  margin-top: 30px;
+}
+.footer-info-right a {
+  padding-left: 1rem;
+}
+
+.email-me {
+  font-size: var(--header-4);
+  color: rgb(44, 127, 236) !important;
+}
+
+.about-me-photo {
+  max-height: 20% !important;
+}
+
+.red-title {
+  color: #e46c73;
+}
+.light-title {
+  color: #faead2;
+  font-weight: 600;
+}
+
+.featured {
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-featured {
+  min-width: 100%;
+}

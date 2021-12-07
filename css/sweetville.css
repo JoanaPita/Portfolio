@@ -1,0 +1,45 @@
+body {
+  background-color: #e7d8ff !important;
+}
+
+.container-studiopaca {
+  margin-bottom: 0;
+  max-width: 450px;
+}
+
+.align-items-start {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.featured-second {
+  display: flex;
+  height: 700px;
+}
+
+.featured-first-img {
+  background: url(/assets/Sweetville-1.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.featured-second-first {
+  background: url(/assets/sweetville-2.png);
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  /* margin: 10px 10px 20px 10px; */
+}
+
+.featured-second-second {
+  background: url(/assets/sweetville-3.png);
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  /* margin: 10px 10px 20px 10px;*/
+}

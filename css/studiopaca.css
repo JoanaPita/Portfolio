@@ -1,0 +1,36 @@
+body {
+  background-color: #ffc1df !important;
+}
+
+/* COLOR STYLES------------- */
+.logo,
+.li,
+a {
+  color: #691d42 !important;
+}
+
+.section-title {
+  color: #691d42;
+}
+
+/* PROJECT EXPLANATION------------------------------ */
+.featured {
+  margin-bottom: 90px;
+}
+
+/* FOOTER SECTION------------------------------- */
+.have-a-question-container {
+  background-color: #ffc1df;
+}
+
+/* .have-a-question-text {
+  color: #691d42;
+} */
+
+.about-me {
+  margin: 0;
+}
+
+.container-studiopaca p {
+  max-width: 500px;
+}
