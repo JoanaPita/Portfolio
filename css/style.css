@@ -32,6 +32,10 @@ body {
   background-color: #fff9eb !important;
 }
 
+main {
+  max-width: 1980px;
+}
+
 img {
   max-width: 200px;
 }
@@ -56,15 +60,27 @@ li {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
-  margin-bottom: 190px;
+  /* margin: 20px;
+  margin-bottom: 190px; */
+  padding: 20px 10px 0px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #fff9eb;
 }
+
+/* .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
 
 .section-title {
   font-size: var(--paragraph-lead);
   max-width: 500px;
   display: flex;
-  margin: 0 auto;
+  margin: 280px auto;
   margin-bottom: 280px;
   text-align: center;
 }

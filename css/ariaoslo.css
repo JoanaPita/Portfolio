@@ -1,0 +1,64 @@
+body {
+  background-color: #dde8ff !important;
+  color: #374b76 !important;
+}
+
+nav {
+  background-color: #dde8ff !important;
+}
+
+.have-a-question-container {
+  background-color: #dde8ff !important;
+}
+
+.logo,
+.li,
+a {
+  color: #374b76 !important;
+}
+
+.visit-link {
+  color: #dde8ff !important;
+}
+
+.view-site {
+  margin: auto;
+  background-color: blue !important;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+
+  position: absolute;
+  z-index: 2;
+  bottom: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.view-site-button {
+  text-align: center;
+  position: relative;
+  top: 42%;
+  bottom: 50%;
+  color: #dde8ff !important;
+}
+
+.featured {
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.container-studiopaca {
+  margin-top: 100px !important;
+  margin-bottom: 0;
+  max-width: 450px;
+}
+
+.align-items-start {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}

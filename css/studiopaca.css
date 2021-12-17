@@ -2,11 +2,23 @@ body {
   background-color: #ffc1df !important;
 }
 
+nav {
+  background-color: #ffc1df !important;
+}
+
 /* COLOR STYLES------------- */
 .logo,
 .li,
 a {
   color: #691d42 !important;
+}
+
+.about-me {
+  display: flex;
+}
+
+.lucky-cat {
+  justify-content: center;
 }
 
 .section-title {
@@ -33,4 +45,8 @@ a {
 
 .container-studiopaca p {
   max-width: 500px;
+}
+
+img {
+  max-width: 400px;
 }

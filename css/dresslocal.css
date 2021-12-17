@@ -7,7 +7,17 @@ main {
   letter-spacing: 1.2px;
 }
 
+nav {
+  background-color: #f1fff9 !important;
+}
+
+.look-through {
+  margin-top: 270px;
+}
 /* COLOR STYLES----------- */
+.have-a-question-container {
+  background-color: #f1fff9 !important;
+}
 .logo,
 .li,
 a {
