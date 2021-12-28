@@ -25,6 +25,10 @@ a {
   color: #691d42;
 }
 
+img {
+  max-width: 100% !important;
+}
+
 /* PROJECT EXPLANATION------------------------------ */
 .featured {
   margin-bottom: 90px;
