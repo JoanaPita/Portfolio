@@ -108,7 +108,7 @@ nav {
 }
 
 .project-main {
-  background-image: url("/assets/Featured.png");
+  background-image: url("assets/Featured.png");
   /* bg color just to be safe in case of img not loading */
   background-color: #7dab99;
   height: 500px;
@@ -136,21 +136,21 @@ nav {
   position: relative;
 }
 .project-secondary-row .project-secondary-left {
-  background-image: url("/assets/smaller2.png");
+  background-image: url("assets/smaller2.png");
   background-color: #eb76ba;
 }
 
 .project-secondary-row .project-secondary-right {
-  background-image: url("/assets/smaller3.png");
+  background-image: url("assets/smaller3.png");
   background-color: #ba80fc;
 }
 .project-third-row .project-secondary-left {
-  background-image: url("/assets/smaller4.png");
+  background-image: url("assets/smaller4.png");
   background-color: #604c99;
 }
 
 .project-third-row .project-secondary-right {
-  background-image: url("/assets/smaller5.png");
+  background-image: url("assets/smaller5.png");
   background-color: #ec7c8b;
 }
 
