@@ -108,7 +108,7 @@ nav {
 }
 
 .project-main {
-  background-image: url("assets/Featured.png");
+  background-image: url("./assets/Featured.png");
   /* bg color just to be safe in case of img not loading */
   background-color: #7dab99;
   height: 500px;
