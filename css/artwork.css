@@ -1,0 +1,64 @@
+body {
+  background-color: #ffc1df !important;
+}
+
+nav {
+  background-color: #ffc1df !important;
+}
+
+/* COLOR STYLES------------- */
+.logo,
+.li,
+a {
+  color: #691d42 !important;
+}
+
+.about-me {
+  display: flex;
+}
+
+.lucky-cat {
+  justify-content: center;
+}
+
+.section-title {
+  color: #691d42;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+/* PROJECT EXPLANATION------------------------------ */
+.featured img {
+  max-height: 750px;
+  width: auto;
+}
+
+.featured {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+/* FOOTER SECTION------------------------------- */
+.have-a-question-container {
+  background-color: #ffc1df;
+}
+
+/* .have-a-question-text {
+    color: #691d42;
+  } */
+
+.about-me {
+  margin: 0;
+}
+
+.container-studiopaca p {
+  max-width: 500px;
+}
+
+.lucky-cat img {
+  max-width: 400px;
+}
